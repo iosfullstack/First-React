@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #282D35;
+    color: white;
+    font-family: 'inter', sans-serif;
+}
+
+main {
+    padding: 57px 27px;
+    margin: 20px;
+}
+
+.main-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+}
+
+.main-facts {
+    margin-top: 40px;
+    max-width: 400px;
+}
+
+.main-facts>li {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-block: 10px;
+    list-style-type: disc;
+    list-style: none;
+}
+
+
+ul li::before {
+    content: "\2022";
+    color: #61DAFB;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    
+  }
