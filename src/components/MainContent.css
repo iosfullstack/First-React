@@ -13,6 +13,9 @@ body {
 main {
     padding: 57px 27px;
     margin: 20px;
+    background-image: url(./images/reactjs-icon\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .main-title {
@@ -41,6 +44,7 @@ main {
 
 ul li::before {
     content: "\2022";
+    font-size: 1rem;
     color: #61DAFB;
     font-weight: bolder;
     display: inline-block; 
